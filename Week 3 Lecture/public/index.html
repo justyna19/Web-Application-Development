@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Solent E-Stores</title>
-  <script type="module" src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Store</title>
+    <script type="module" src="index.js"></script>
 </head>
 <body>
-  <h1>🛒 Solent E-Stores</h1>
+    <h1>E-Stores</h1>
+    <h2>Search Products</h2>
+    <button id="loadProducts">Show all products</button>
+    <div id="results"></div>
 
-  <h2>Search Products (GET)</h2>
-  <button id="loadProducts">Show All Products</button>
-  <div id="results"></div>
+    <hr />
 
-  <hr />
+    <h2>Add New Product (POST)</h2>
+    <input id="name" placeholder="Product Name" />
+    <input id="manufacturer" placeholder="Manufacturer" />
+    <input id="price" placeholder="Price" />
+    <button id="addProduct">Add Product</button>
 
-  <h2>Add New Product (POST)</h2>
-  <input id="name" placeholder="Product name" />
-  <input id="manufacturer" placeholder="Manufacturer" />
-  <input id="price" placeholder="Price" />
-  <button id="addProduct">Add Product</button>
-
-  <div id="message"></div>
+    <div id="message"></div>
+    
 </body>
 </html>
